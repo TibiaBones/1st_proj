@@ -412,7 +412,7 @@ input {
 
 .theBestDestinations-background {
     color: var(--General-White);
-    min-height: 1160px;
+    min-height: 960px;
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
@@ -559,20 +559,61 @@ input {
     cursor: pointer;
 }
 
-.registrationOffer {
-    /* display: none; */
-    background-color: var(--bg-color-Main);
-    margin: 120px 105px 0;
-    max-width: 1230px;
-    height: 200px;
-}
-
 .guestsReviews-background {
-    color: var(--General-White);
+    background-color: var(--General-White);
     min-height: 1160px;
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.registrationOffer {
+    /* display: none; */
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--bg-color-Main);
+    margin: 0 105px;
+    max-width: 1230px;
+    height: 200px;
+}
+
+.registrationOffer-flexContainerLeft {
+    display: flex;
+    justify-content: space-between;
+    width: 590px;
+}
+
+.registrationOffer-ico {
+    margin: auto 25px;
+}
+
+.registrationOffer-Ico-svg {
+    height: 86px;
+    width: 86px;
+}
+
+.registrationOffer-signUp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.registrationOffer-paragraph {
+    font-weight: 500;
+    font-size: 24px;
+    margin: 0;
+}
+
+.registrationOffer-button-svg {
+    height: 48px;
+    width: 128px;
+    margin-top: 20px;
+}
+
+.X {
+    margin: 25px;
+    height: 26px;
+    width: 26px;
 }
 
 .guestsReviews-label {
