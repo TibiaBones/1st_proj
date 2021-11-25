@@ -405,9 +405,36 @@ input {
 }
 
 .hgl-img {
-    margin: 105px auto 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 105px 105px 0;
     height: 560px;
     /* СДЕЛАТЬ СЛАЙДЕР КАРТИНОК!!! */
+}
+
+.hgl-container-image {
+    margin: 0 7px;
+    height: 435px;
+    width: 295px;
+}
+
+.hgl-image {
+    display: block;
+    object-fit: cover;
+    max-height: 295px;
+    width: 100%;
+}
+
+.hgl-label-homes {
+    color: var(--Accent-Blue);
+    margin-top: 25px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.hgl-label-location {
+    color: var(--Secondary-Text);
+    font-size: 24px;
 }
 
 .theBestDestinations-background {
@@ -599,6 +626,7 @@ input {
 }
 
 .registrationOffer-paragraph {
+    color: var(--Text-color-Main);
     font-weight: 500;
     font-size: 24px;
     margin: 0;
