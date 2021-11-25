@@ -413,6 +413,7 @@ input {
 }
 
 .hgl-container-image {
+    vertical-align: top;
     margin: 0 7px;
     height: 435px;
     width: 295px;
