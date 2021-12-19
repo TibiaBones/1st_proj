@@ -657,6 +657,113 @@ input {
     font-size: 40px;
 }
 
+.guestsReviews-Reviews {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1250px;
+    height: 700px;
+    margin: 105px 105px 120px;
+}
+
+.guestsReviews-container {
+    background-color: var(--bg-color-Main);
+    vertical-align: top;
+    margin: 0 7px;
+    height: 700px;
+    max-width: 400px;
+}
+
+.guestsReviews-containerForPrice {
+    position: relative;
+    width: 100%;
+}
+
+.guestsReviews-image {
+    display: block;
+    object-fit: cover;
+    max-height: 400px;
+    width: 100%;
+}
+
+.guestsReviews-price {
+    background-color: var(--Text-color-Main);
+    color: var(--General-White);
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    bottom: 0;
+    opacity: 0.7;
+    height: 50px;
+    Font: Roboto;
+    font-weight: 500;
+    font-Size: 18px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 25px;
+}
+
+.guestsReviews-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 25px 25px 30px;
+    height: 60px;
+    max-width: 350px;
+}
+
+.guestsReviews-information-flexElement {
+    display: flex;
+    justify-content: space-between;
+}
+
+.guestsReviews-flexBottom {
+    display: flex;
+    align-items: flex-end;
+}
+
+.guestsReviews-hotel {
+    color: var(--Accent-Blue);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0;
+}
+
+.guestsReviews-place {
+    color: var(--Accent-Blue);
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0;
+}
+
+.guestsReviews-rectangle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 50px;
+    background-color: var(--General-Blue);
+    color: var(--General-White);
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.guestsReviews-grade {
+    text-align: center;
+    margin: 0;
+}
+
+.guestsReviews-amountOfReviews {
+    color: var(--Secondary-Text);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0;
+}
+
 footer {
     background-color: #10367C;
     max-width: 1440px;
