@@ -659,7 +659,7 @@ input {
 
 .guestsReviews-Reviews {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     max-width: 1250px;
     height: 760px;
     margin: 105px auto 120px;
@@ -670,19 +670,19 @@ input {
     vertical-align: top;
     margin: 0 7px;
     height: 760px;
-    max-width: 400px;
+    max-width: 28vw;
 }
 
 .guestsReviews-containerForPrice {
     position: relative;
-    width: 100%;
+    width: 28vw;
 }
 
 .guestsReviews-image {
     display: block;
     object-fit: cover;
-    height: 400px;
-    width: 400px;
+    height: 28vw;
+    width: 28vw;
 }
 
 .guestsReviews-price {
@@ -700,7 +700,7 @@ input {
     display: flex;
     align-items: center;
     box-sizing: border-box;
-    padding-left: 25px;
+    padding-left: 6%;
 }
 
 .guestsReviews-information {
