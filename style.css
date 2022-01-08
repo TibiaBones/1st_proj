@@ -670,7 +670,7 @@ input {
     vertical-align: top;
     margin: 0 7px;
     height: 760px;
-    max-width: 28vw;
+    width: 28vw;
 }
 
 .guestsReviews-containerForPrice {
