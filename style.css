@@ -62,6 +62,108 @@
     width: calc(var(--col-width) * 12);
 }
 
+.dark .offer-background {
+    background-color: var(--Dark-Mode-3);
+}
+
+.dark .offer-big-title {
+    color: var(--General-White);
+}
+
+.dark .offer-label {
+    color: var(--General-White);
+}
+
+.dark .homesGuestsLoves-background {
+    background-color: var(--Dark-Mode-2);
+}
+
+.dark .homesGuestsLoves-title {
+    color: var(--General-White);
+}
+
+.dark .hgl-label-homes {
+    color: var(--General-White);
+}
+
+.dark .hgl-label-location {
+    color: var(--Accent-Blue);
+}
+
+.dark .theBestDestinations-background {
+    background-color: var(--Dark-Mode-3);
+}
+
+.dark .theBestDestinations-title {
+    color: var(--General-White);
+}
+
+.dark .tbd-buttons-regions {
+    background-color: var(--Dark-Mode-2);
+    color: var(--General-White);
+}
+
+.dark .tbd-buttons-cities {
+    background-color: var(--Dark-Mode-2);
+    color: var(--General-White);
+}
+
+.dark .tbd-buttons-placesOfInterest {
+    background-color: var(--Dark-Mode-2);
+    color: var(--General-White);
+}
+
+.dark .tbd-label {
+    color: var(--General-White);
+}
+
+.dark .registrationOffer {
+    background-color: var(--Dark-Mode-2);
+}
+
+.dark .registrationOffer-paragraph {
+    color: var(--Secondary-Text);
+}
+
+
+/* разобраться как менять цвет свг иконок при смене темы */
+
+.dark .guestsReviews-background {
+    background-color: var(--Dark-Mode-3);
+}
+
+.dark .guestsReviews-label {
+    color: var(--General-White);
+}
+
+.dark .guestsReviews-container {
+    background-color: var(--Dark-Mode-2);
+}
+
+.dark .guestsReviews-hotel {
+    color: var(--General-White);
+}
+
+.dark .guestsReviews-place {
+    color: var(--General-White);
+}
+
+.dark .guestsReviews-account-name {
+    color: var(--General-White);
+}
+
+.dark .guestsReviews-text {
+    color: var(--General-White);
+}
+
+.dark .guestsReviews-amountOfReviews {
+    color: var(--Accent-Blue);
+}
+
+.dark footer {
+    background-color: var(--Dark-Mode-1);
+}
+
 body {
     font-family: Roboto, sans-serif;
     font-style: normal;
@@ -662,7 +764,8 @@ input {
     justify-content: center;
     max-width: 1250px;
     height: 760px;
-    margin: 105px auto 120px;
+    margin: 105px auto 0;
+    padding-bottom: 120px;
 }
 
 .guestsReviews-container {
@@ -670,19 +773,19 @@ input {
     vertical-align: top;
     margin: 0 7px;
     height: 760px;
-    width: 28vw;
+    width: 400px;
 }
 
 .guestsReviews-containerForPrice {
     position: relative;
-    width: 28vw;
+    width: 100%;
 }
 
 .guestsReviews-image {
     display: block;
     object-fit: cover;
-    height: 28vw;
-    width: 28vw;
+    height: 400px;
+    width: 100%;
 }
 
 .guestsReviews-price {
